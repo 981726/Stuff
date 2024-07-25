@@ -1,3 +1,7 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
 _G.AutofarmSettings = { 
     Fps = 10, --// anything above 3 should be good, 10+ if you want to make the most cash.
     Saver = true, --// black screen to save usage, shows wallet, timer, broken atms, profit.
