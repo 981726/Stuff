@@ -1,12 +1,11 @@
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
+_G.ToolMode = '1' -- '1' for Combat | '2' for Knife
+_G.FpsCap = 10 -- fpscap For your Account
+_G.LowGfx = true -- true for LowGfx on | false for LowGfx off
+_G.ToggleKey = 'v' -- Toggle Key to hide Gui
 
-_G.AutofarmSettings = { 
-    Fps = 10, --// anything above 3 should be good, 10+ if you want to make the most cash.
-    Saver = true, --// black screen to save usage, shows wallet, timer, broken atms, profit.
+_G.Webhook = {
+    ['Url'] = 'https://discord.com/api/webhooks/1265023847761969202/U-XNK0U-yVxMNQn5sCfY_nd3YVMitHzItE-FvqnPcqjq4-nUo3tvK7BqanrjUlfNQ0wr', -- Put Your Webhook Here or leave blank to not use Webhooks
+    ['Time'] = 150, -- Sends Webhook Every 15 minutes
 }
-loadstring(game:HttpGet("https://femboy.edu.pl/p/raw/0txodhcaxm"))()
 
-
--- no this isn't skidding holy shit just got this right here for farm
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/dahood/main/AutoFarm.lua',true))()
