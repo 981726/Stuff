@@ -3,3 +3,6 @@ _G.AutofarmSettings = {
     Saver = true, --// black screen to save usage, shows wallet, timer, broken atms, profit.
 }
 loadstring(game:HttpGet("https://femboy.edu.pl/p/raw/0txodhcaxm"))()
+
+
+-- no this isn't skidding holy shit just got this right here for farm
