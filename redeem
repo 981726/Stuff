@@ -1,4 +1,3 @@
 for i,v in ipairs(_G.Codes) do
 game:GetService("ReplicatedStorage").MainEvent:FireServer("EnterPromoCode", v)
-    task.wait(3);
-end;
+end
