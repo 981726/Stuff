@@ -3,5 +3,5 @@ local MainEvent = ReplicatedStorage:WaitForChild("MainEvent")
 
 for _, code in ipairs(_G.Codes) do
     MainEvent:FireServer("EnterPromoCode", code)
-    wait(2)
+    wait(4)
 end
