@@ -1,6 +1,10 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local MainEvent = ReplicatedStorage:WaitForChild("MainEvent")
 
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
 for _, code in ipairs(_G.Codes) do
     MainEvent:FireServer("EnterPromoCode", code)
     wait(4)
