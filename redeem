@@ -7,5 +7,5 @@ end
 
 for _, code in ipairs(_G.Codes) do
     MainEvent:FireServer("EnterPromoCode", code)
-    wait(4)
+    wait(2)
 end
