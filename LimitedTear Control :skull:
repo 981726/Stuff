@@ -1,3 +1,6 @@
+-- didn't make this 
+-- sum randoms alt control 💀
+
 --DO NOT EDIT THIS IF YOU DO NOT KNOW WHAT YOUR DOING!
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
 if getgenv().ExecutedAlt == true then
